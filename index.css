@@ -41,7 +41,7 @@ body {
     height: 400px;
     color: white;
     text-align: center;
-    width:50%
+    width: 50%
 }
 
 
@@ -49,12 +49,12 @@ body {
 @media(min-width:600px) and (max-width:880px) {
     .main {
         width: 75%;
-        height:800px;
+        height: 800px;
     }
-    
+
 
     #result {
-
+        width: 75%;
         height: 600px;
 
     }
@@ -77,12 +77,12 @@ body {
 @media(min-width:500px) and (max-width:600px) {
     .main {
         width: 75%;
-        height:800px;
+        height: 800px;
     }
-    
+
 
     #result {
-
+        width: 75%;
         height: 600px;
 
     }
@@ -107,15 +107,16 @@ body {
 @media(min-width:400px) and (max-width:500px) {
     .main {
         width: 75%;
-        height:800px;
+        height: 800px;
     }
-    
+
 
     #result {
-
+        width: 75%;
         height: 600px;
 
     }
+
     .input1 {
         height: 40px;
         width: 225px;
@@ -126,22 +127,23 @@ body {
         width: 51px;
         border-radius: 10px;
     }
+
     .col {
         height: 70px;
         font-size: 15px;
-    
+
     }
 }
 
 @media(min-width:300px) and (max-width:400px) {
     .main {
         width: 75%;
-        height:800px;
+        height: 800px;
     }
-    
+
 
     #result {
-
+        width: 75%;
         height: 600px;
 
     }
@@ -156,17 +158,18 @@ body {
         width: 46px;
         border-radius: 10px;
     }
+
 }
 
 @media(min-width:200px) and (max-width:300px) {
     .main {
         width: 75%;
-        height:800px;
+        height: 800px;
     }
-    
+
 
     #result {
-width:75%;
+        width: 75%;
         height: 600px;
 
     }
@@ -182,6 +185,8 @@ width:75%;
         width: 46px;
         border-radius: 10px;
     }
+
+   
 }
 
 .col {
