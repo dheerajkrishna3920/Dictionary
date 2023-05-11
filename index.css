@@ -1,0 +1,195 @@
+body {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.main {
+    background-color: white;
+    height: 600px;
+    background-image: url(./images/yellow.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    font-family: 'Labrada', serif;
+    color: rgb(255, 255, 255);
+}
+
+.input1 {
+    height: 40px;
+    width: 340px;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.butn {
+    background-color: greenyellow;
+    height: 40px;
+    width: 80px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(0, 0, 0);
+}
+
+#result {
+    background-color: rgba(2, 2, 70, 0.53);
+    height: 400px;
+    color: white;
+    text-align: center;
+    width:50%
+}
+
+
+
+@media(min-width:600px) and (max-width:880px) {
+    .main {
+        width: 75%;
+        height:800px;
+    }
+    
+
+    #result {
+
+        height: 600px;
+
+    }
+
+    .input1 {
+        height: 40px;
+        width: 287px;
+    }
+
+    .butn {
+        height: 40px;
+        width: 65px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media(min-width:500px) and (max-width:600px) {
+    .main {
+        width: 75%;
+        height:800px;
+    }
+    
+
+    #result {
+
+        height: 600px;
+
+    }
+
+    .input1 {
+        height: 40px;
+        width: 287px;
+    }
+
+    .butn {
+        height: 40px;
+        width: 65px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+@media(min-width:400px) and (max-width:500px) {
+    .main {
+        width: 75%;
+        height:800px;
+    }
+    
+
+    #result {
+
+        height: 600px;
+
+    }
+    .input1 {
+        height: 40px;
+        width: 225px;
+    }
+
+    .butn {
+        height: 40px;
+        width: 51px;
+        border-radius: 10px;
+    }
+    .col {
+        height: 70px;
+        font-size: 15px;
+    
+    }
+}
+
+@media(min-width:300px) and (max-width:400px) {
+    .main {
+        width: 75%;
+        height:800px;
+    }
+    
+
+    #result {
+
+        height: 600px;
+
+    }
+
+    .input1 {
+        height: 40px;
+        width: 172px;
+    }
+
+    .butn {
+        height: 40px;
+        width: 46px;
+        border-radius: 10px;
+    }
+}
+
+@media(min-width:200px) and (max-width:300px) {
+    .main {
+        width: 75%;
+        height:800px;
+    }
+    
+
+    #result {
+width:75%;
+        height: 600px;
+
+    }
+
+    .input1 {
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .butn {
+        height: 40px;
+        width: 46px;
+        border-radius: 10px;
+    }
+}
+
+.col {
+    height: 50px;
+    text-align: left;
+    color: beige;
+    font-family: 'Bona Nova', serif;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
